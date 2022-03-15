@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>  
+    <!--
+        Site: Murphy's Auto
+        Author: Cullen Shortt
+        Class: ITD 210
+     -->
+   <title>Murphy's Auto</title>
+   <meta charset="utf-8" />
+   <meta name="keywords" content="Murphy's Auto, Used Cars, New Cars, Virginia Beach, Kia, Ford" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+   <!--Bootstrap-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+   <!--Personal Style Sheet
+    **Must come after Bootstrap due to rule of specificity**-->
+   <link href="auto.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+ 
+<body>
+    <main id="main">   
+      <header> 
+         <section id="pagetop">
+          <div class="hours">Open Today! 9:00AM-7:00PM</div>
+          <div class="contactinfo">Call: 555-5555 &#124 555 Car Lane, Virginia Beach, Va 12345</div>
+         </section>
+        <section id="lowertop">
+          <nav class="navbar-default">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="autosite.html"><i class="material-icons">directions_car</i></a>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="autosite.html">Home</a></li>
+                  <li><a href="sedans.html">Sedans</a></li>
+                  <li><a href="trucks.html">Trucks</a></li>
+                  <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </nav>
+        <figure> 
+          <img src="autologo2.png" class="logo" alt="Murphy's Auto Logo"/>
+        </figure>
+        </section>
+    </header>
+    <article class="Welcome">
+    <h1>Welcome to Murphy's</h1>
+    <h2>Come test drive with us today.</h2>
+    </article>
+
+    <!--Image Carousel-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img class="img-responsive center-block" src="sale1.png" alt="First slide">
+          </div>
+          <div class="item">
+            <img class="img-responsive center-block" src="sale2.png" alt="Second slide">
+          </div>
+          <div class="item">
+            <img class="img-responsive center-block" src="sale3.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+      <script src="docs.min.js"></script>
+
+     <footer>
+      <nav class="verticalNavigation">
+      <h1>Site Content</h1>
+      <ul>
+        <li class="active"><a href="autosite.html">Home</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Directions</a></li>
+        <li><a href="#pagetop">Top</a></li>
+        <li><a href="#">Customer Support</a></li>
+      </ul>
+      </nav>
+      <nav class="verticalNavigation">
+        <h1>Services</h1>
+        <ul>
+           <li><a href="#">Car Repair</a></li>
+           <li><a href="#">Ordering Parts</a></li>
+           <li><a href="#">Tracking</a></li>
+           <li><a href="#">Privacy Policy</a></li>
+           <li><a href="#">Contact Us</a></li>
+        </ul>
+     </nav>
+     <section id="contactInfo">
+        <h1>Location &amp; Hours</h1>
+        <p>124 555 Car Lane <br />
+           Virginia Beach, Virginia<br />
+           555-5555 </p>
+        <p>Mon - Thu: 9 a.m. - 7 p.m.<br />
+           Sat - Sun: 9 a.m. - 5 p.m.</p>
+        <p>Toll Free: 1-800-555-5555</p>
+     </section>
+     </footer>
+    </main>
+ </body>
+</html>

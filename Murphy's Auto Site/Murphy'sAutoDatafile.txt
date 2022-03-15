@@ -1,0 +1,19 @@
+"sedans": [
+{"make":"Kia", "model":"Forte", "condition":"used", "year":"2016", "price":"11500", "mpg":"25", "color":"black", "mileage": "34000"},
+{"make":"Kia", "model":"Optima", "condition":"new", "year":"2021", "price":"22000", "mpg":"24", "color":"blue", "mileage": "0"},
+{"make":"Kia", "model":"Rio", "condition":"used", "year":"2017", "price":"14000", "mpg":"27", "color":"grey", "mileage": "37500"},
+{"make":"Nissan", "model":"Ultima", "condition":"used", "year":"2020", "price":"15000", "mpg":"25", "color":"black", "mileage": "12000"},
+{"make":"Nissan", "model":"Versa", "condition":"used", "year":"2014", "price":"9000", "mpg":"22", "color":"white", "mileage": "53000"},
+{"make":"Nissan", "model":"Versa", "condition":"used", "year":"2018", "price":"11000", "mpg":"24", "color":"white", "mileage": "42500"},
+
+
+]
+
+"truks": [
+{"make":"Nissan", "model":"Frontier", "condition":"new", "year":"2021", "price":"27000", "mpg":"26", "color":"red", "mileage": "0"},
+{"make":"Nissan", "model":"Titan", "condition":"new", "year":"2021", "price":"36500", "mpg":"29", "color":"white", "mileage": "0"},
+{"make":"Ford", "model":"Ranger", "condition":"used", "year":"2019", "price":"24000", "mpg":"23", "color":"orange", "mileage": "13000"},
+{"make":"Ford", "model":"F 150", "condition":"used", "year":"2020", "price":"27500", "mpg":"23", "color":"dark blue", "mileage": "7000"},
+{"make":"Ford", "model":"Super Duty", "condition":"new", "year":"2021", "price":"34000", "mpg":"30", "color":"grey", "mileage": "0"},
+]
+
